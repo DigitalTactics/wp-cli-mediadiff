@@ -1,0 +1,15 @@
+path: /path/to/wordpress
+url: https://www.example.com
+user: admin
+color: true
+disabled_commands:
+  - db drop
+  - plugin install
+require:
+  - mediadiff-command.php
+
+core config:
+	dbuser: root
+	dbpass: 
+	extra-php: |
+		define('WP_DEBUG', false);
