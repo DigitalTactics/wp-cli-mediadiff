@@ -1,0 +1,27 @@
+{
+  "name": "digitaltactics/wp-cli-mediadiff",
+  "description": "Use WP-CLi to compare and manage media files on the file-system to what's available in the WP media library inc tools to remove those not used.",
+  "type": "wp-cli-package",
+  "keywords": ["attachments", "wp-cli", "wordpress", "media"],
+  "homepage": "https://github.com/DigitalTactics/wp-cli-mediadiff",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Chris Evans",
+      "email": "christopher.evans@digitaltactics.co.uk",
+      "homepage": "https://www.digitaltactics.co.uk"
+    },
+    {
+      "name": "Chris Dean",
+      "email": "chris@digitaltactics.co.uk",
+      "homepage": "https://www.digitaltactics.co.uk"
+    },
+
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "autoload": {
+    "files": ["src/mediadiff-command.php"]
+  }
+}
